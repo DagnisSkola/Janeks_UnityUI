@@ -21,4 +21,4 @@ Nomainot tēlu, attiecīgi nomainās arī komponentē esošais tēla apraksts
 - [ ] Projekts ir izstrādāts noteiktajā termiņā, tā izstrāde ir veikta rūpīgi un tas ir darbināms bez
 funkcionālām nepilnībām
 
-![Terraria](https://static.tvtropes.org/pmwiki/pub/images/npc_0001_guide.png)
+![Terraria](https://tiermaker.com/images/chart/chart/vanilla-terraria-and-alchemist-mod-npcs-435448/guidenpcterrariapng.png)
