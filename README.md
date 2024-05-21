@@ -21,4 +21,4 @@ Nomainot tēlu, attiecīgi nomainās arī komponentē esošais tēla apraksts
 - [x] Projekts ir izstrādāts noteiktajā termiņā, tā izstrāde ir veikta rūpīgi un tas ir darbināms bez
 funkcionālām nepilnībām
 
-![Terraria](https://static.wikia.nocookie.net/vsbattles/images/c/c3/Theguide.png/revision/latest?cb=20171020150353)
+![Terraria](https://static.tvtropes.org/pmwiki/pub/images/npc_0001_guide.png)
