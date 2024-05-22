@@ -9,24 +9,30 @@ public class ImageScript : MonoBehaviour
     public GameObject male;
     public GameObject female;
     public GameObject goblin;
+    public GameObject chest;
     public Sprite[] spriteArray;
     public GameObject imageHolder;
     public GameObject sizeSlider;
     public GameObject rotationSlider;
 
-    public void showBean(bool value)
+    public void showMale(bool value)
     {
         male.SetActive(value);
     }
 
-    public void showTeddy(bool value)
+    public void showFemale(bool value)
     {
         female.SetActive(value);
     }
 
-    public void showLady(bool value)
+    public void showGoblin(bool value)
     {
         goblin.SetActive(value);
+    }
+
+    public void showChest(bool value)
+    {
+        chest.SetActive(value);
     }
 
     public void changeImage(int index)
