@@ -6,7 +6,7 @@ spēli. Nodrošināta iespēja pārslēgties starp projektā iekļautajām ainā
 - [x] Pielietojot teksta ievades laukus (2 gab.) iespējams ievadīt tēla vārdu un dzimšanas gadu (šajā
 laukā iespējams ievadīt tikai skaitļus), pogas nospiešana nodrošina ievadīto vērtību attēlošanu
 teksta laukā, aprēķinot vecumu (Piemēram: „Supervaronis Oskars ir 19 gadus vecs!") 
-- [ ] Pielietojot izkrītošā saraksta pogu, iespējams izvēlēties vismaz divus tēlus, kurus iespējams
+- [x] Pielietojot izkrītošā saraksta pogu, iespējams izvēlēties vismaz divus tēlus, kurus iespējams
 apģērbt
 - [ ] Izveidotas vairākas apģērbu un aprīkojuma kategorijas (bikses, zābaki, cepures, cimdi, amuleti,
 u.tml.) no kurām ar toggle pogu palīdzību iespējams parādīt un paslēpt attiecīgos elementus.
