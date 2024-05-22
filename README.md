@@ -3,7 +3,7 @@ Unity 2d projekts, kas demonstrē UI elementu pielietojumu, ar tēla apģerbšan
 ### Veicamo darbu saraksts
 - [x] Izstrādāt sākuma ainu no, kuras ir iespējams aizvērt projektu vai izvēlēties uzsākt tēla veidošanas
 spēli. Nodrošināta iespēja pārslēgties starp projektā iekļautajām ainām 
-- [ ] Pielietojot teksta ievades laukus (2 gab.) iespējams ievadīt tēla vārdu un dzimšanas gadu (šajā
+- [x] Pielietojot teksta ievades laukus (2 gab.) iespējams ievadīt tēla vārdu un dzimšanas gadu (šajā
 laukā iespējams ievadīt tikai skaitļus), pogas nospiešana nodrošina ievadīto vērtību attēlošanu
 teksta laukā, aprēķinot vecumu (Piemēram: „Supervaronis Oskars ir 19 gadus vecs!") 
 - [ ] Pielietojot izkrītošā saraksta pogu, iespējams izvēlēties vismaz divus tēlus, kurus iespējams
