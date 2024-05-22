@@ -1,7 +1,7 @@
 # Janeks_UnityUI
 Unity 2d projekts, kas demonstrē UI elementu pielietojumu, ar tēla apģerbšanu.
 ### Veicamo darbu saraksts
-- [ ] Izstrādāt sākuma ainu no, kuras ir iespējams aizvērt projektu vai izvēlēties uzsākt tēla veidošanas
+- [x] Izstrādāt sākuma ainu no, kuras ir iespējams aizvērt projektu vai izvēlēties uzsākt tēla veidošanas
 spēli. Nodrošināta iespēja pārslēgties starp projektā iekļautajām ainām 
 - [ ] Pielietojot teksta ievades laukus (2 gab.) iespējams ievadīt tēla vārdu un dzimšanas gadu (šajā
 laukā iespējams ievadīt tikai skaitļus), pogas nospiešana nodrošina ievadīto vērtību attēlošanu
