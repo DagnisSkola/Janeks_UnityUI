@@ -37,6 +37,6 @@ public class ShowTextScript : MonoBehaviour
         int CurYear = System.DateTime.Now.Year;
         age = CurYear - year;
         
-        displayField.GetComponent<Text>().text = "Guide "+text+", is "+age+" years old";
+        displayField.GetComponent<Text>().text = "Player "+text+", is "+age+" years old";
     }
 }
