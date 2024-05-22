@@ -24,15 +24,19 @@ public class ShowTextScript : MonoBehaviour
     */
 
     string text;
+    int year, age;
     public GameObject inputField;
+    public GameObject inputFieldAge;
     public GameObject displayField;
-    string[] words = { "Sveki ", "Jauku dienu ", "Labrīt ", "Prieks Tevi redzēt " };
-    int rd;
+
 
     public void getText()
     {
-        rd = Random.Range(0, words.Length);
         text = inputField.GetComponent<Text>().text;
-        displayField.GetComponent<Text>().text = words[rd] + text.ToLower() + "!";
+        year = int.Parse(inputFieldAge.GetComponent<Text>().text);
+        int CurYear = System.DateTime.Now.Year;
+        age = CurYear - year;
+        
+        displayField.GetComponent<Text>().text = "Guide "+text+", is "+age+" years old";
     }
 }
