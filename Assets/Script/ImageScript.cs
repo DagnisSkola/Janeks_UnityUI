@@ -58,10 +58,4 @@ public class ImageScript : MonoBehaviour
         imageHolder.transform.localScale = new Vector2(1F * size, 1F * size);
     }
 
-    public void changeRotation()
-    {
-        float rotation = rotationSlider.GetComponent<Slider>().value;
-        imageHolder.transform.localRotation = Quaternion.Euler(0, 0, rotation*360);
-    }
-
 }
