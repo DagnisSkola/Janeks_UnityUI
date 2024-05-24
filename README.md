@@ -36,4 +36,6 @@ funkcionālām nepilnībām
 - Katram tēlam ir savs apraksts.
 - Daudzi skaņas efekti.
 
+Ideja par dizainu tika ņemta no populārās 2D spēlēs "Terraria".
+
 
