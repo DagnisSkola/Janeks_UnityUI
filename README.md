@@ -16,7 +16,7 @@ tēla
 - [x] Nodrošināti skaņas efekti (pogu klikšķi, fona mūzika, tēlu izdarītās skaņas) 
 - [ ] Ievietota scroll view komponente, kurā lasāms apraksts par projektā iekļautajiem tēliem.
 Nomainot tēlu, attiecīgi nomainās arī komponentē esošais tēla apraksts 
-- [ ] Iekļauti divi slider elementi, kur viens maina apģērbjamā tēla garumu, bet otrs platumu 
+- [x] Iekļauti divi slider elementi, kur viens maina apģērbjamā tēla garumu, bet otrs platumu 
 - [ ] Projekta izstrāes process tiek jēgpilni versionēts ar Git versiju kontroles sistēmu 
 - [ ] Projekts ir izstrādāts noteiktajā termiņā, tā izstrāde ir veikta rūpīgi un tas ir darbināms bez
 funkcionālām nepilnībām
