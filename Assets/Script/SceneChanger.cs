@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,6 +13,7 @@ public class SceneChanger : MonoBehaviour
     public void ToSecondScene()
     {
         SceneManager.LoadScene(1, LoadSceneMode.Single);
+   
     }
 
     public void Quit()
