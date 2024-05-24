@@ -14,7 +14,8 @@ public class ImageScript : MonoBehaviour
     public GameObject leg;
     public Sprite[] spriteArray;
     public GameObject imageHolder;
-    public GameObject sizeSlider;
+    public GameObject widthSlider;
+    public GameObject heightSlider;
     public GameObject rotationSlider;
 
     public void showMale(bool value)
@@ -52,10 +53,21 @@ public class ImageScript : MonoBehaviour
         imageHolder.GetComponent<Image>().sprite = spriteArray[index];
     }
 
-    public void changeSize()
+    public void changeWidth()
     {
-        float size = sizeSlider.GetComponent<Slider>().value;
-        imageHolder.transform.localScale = new Vector2(1F * size, 1F * size);
+        float sizeWidth = widthSlider.GetComponent<Slider>().value;
+        Vector3 currentScaleWidth = imageHolder.transform.localScale;
+        currentScaleWidth.x = 1F * sizeWidth;
+        imageHolder.transform.localScale = currentScaleWidth;
+    }
+
+    public void changeHeight()
+    {
+        float sizeHeight = heightSlider.GetComponent<Slider>().value;
+        Vector3 currentScaleHeight = imageHolder.transform.localScale;
+        currentScaleHeight.y = 1F * sizeHeight;
+
+        imageHolder.transform.localScale = currentScaleHeight;
     }
 
 }
