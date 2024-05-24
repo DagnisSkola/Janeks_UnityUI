@@ -9,14 +9,19 @@ public class ImageScript : MonoBehaviour
     public GameObject male;
     public GameObject female;
     public GameObject goblin;
+
     public GameObject head;
     public GameObject chest;
     public GameObject leg;
+
     public Sprite[] spriteArray;
     public GameObject imageHolder;
     public GameObject widthSlider;
     public GameObject heightSlider;
-    public GameObject rotationSlider;
+
+    public GameObject textField;
+
+    public string[] text;
 
     public void showMale(bool value)
     {
@@ -47,10 +52,10 @@ public class ImageScript : MonoBehaviour
     {
         leg.SetActive(value);
     }
-
     public void changeImage(int index)
     {
         imageHolder.GetComponent<Image>().sprite = spriteArray[index];
+        textField.GetComponent<Text>().text = text[index];
     }
 
     public void changeWidth()

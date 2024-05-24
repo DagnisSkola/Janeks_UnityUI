@@ -28,6 +28,8 @@ public class ShowTextScript : MonoBehaviour
     public GameObject inputField;
     public GameObject inputFieldAge;
     public GameObject displayField;
+    public GameObject displayFieldDesc;
+
 
 
     public void getText()
@@ -39,4 +41,5 @@ public class ShowTextScript : MonoBehaviour
         
         displayField.GetComponent<Text>().text = "Player "+text+", is "+age+" years old";
     }
+
 }
