@@ -9,7 +9,9 @@ public class ImageScript : MonoBehaviour
     public GameObject male;
     public GameObject female;
     public GameObject goblin;
+    public GameObject head;
     public GameObject chest;
+    public GameObject leg;
     public Sprite[] spriteArray;
     public GameObject imageHolder;
     public GameObject sizeSlider;
@@ -30,9 +32,19 @@ public class ImageScript : MonoBehaviour
         goblin.SetActive(value);
     }
 
+    public void showHead(bool value)
+    {
+        head.SetActive(value);
+    }
+
     public void showChest(bool value)
     {
         chest.SetActive(value);
+    }
+
+    public void showLeg(bool value)
+    {
+        leg.SetActive(value);
     }
 
     public void changeImage(int index)
